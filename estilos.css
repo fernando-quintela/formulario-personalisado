@@ -1,0 +1,81 @@
+.flex-container{
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
+  background: rgb(112, 30, 25);
+  margin: 50px 40px;
+  border: 15px solid rgb(35, 170, 18);
+  outline: 4px solid rgb(114, 15, 15);
+  padding: 14px;
+}
+
+.form{
+  min-width: 400px;
+  flex: 1;
+  text-align: center;
+  padding: 40px;
+  order: 6;
+}
+
+.form__input{
+  width: 100%;
+  padding: 8px;
+  margin: 9px 0;
+  border: none;
+  border-bottom: 4px solid rgb(35, 170, 18);
+  background: transparent;
+  color: rgb(255, 255, 255);
+  outline: none;
+  
+}
+
+.form__input:focus{
+  background: linear-gradient(to bottom, transparent, rgb(109, 80, 80));
+  border-bottom: 4px solid rgb(72, 223, 152);
+}
+
+.form textarea{
+  min-height: 130px;
+  resize: none;
+  
+}
+
+.div__img{
+  flex: 1 0;
+  padding: 30px;
+  display: flex;
+  order: 2;
+}
+.img-container{
+  padding: 5px;
+ margin: auto;
+  border-radius: 450%;
+  background: rgb(67, 230, 148);
+  min-width: 250px;
+  text-align: center;
+  max-width: 350px;
+  
+  
+}
+
+.div__img img{
+  width: 60%;
+  
+}
+
+.form input[type="submit"] {
+  background-color: rgb(35, 170, 18);
+  border-bottom: none;
+  padding: 14px;
+}
+
+
+
+.form input[type="submit"]:focus {
+  background: rgb(72, 223, 152)
+}
+
+.form input[type="submit"]:active {
+ background: linear-gradient(to bottom,rgb(109, 80, 80) );
+}
